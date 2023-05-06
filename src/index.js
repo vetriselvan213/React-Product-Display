@@ -4,6 +4,7 @@ import './index.css';
 import "./Css/general.css";
 import "./Css/Header.css"
 import './Css/Card.css';
+import "./Css/Popup.css"
 import App from './Components/App';
 import reportWebVitals from './reportWebVitals';
 

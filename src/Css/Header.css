@@ -47,7 +47,7 @@ header .nav-btn{
         justify-content: center;
         gap: 1.5rem;
         background-color: rgba(0, 0, 0, 0.74);
-        transition: 2s;
+        transition: .8s;
         transform: translateY(-100vh);
     }
 

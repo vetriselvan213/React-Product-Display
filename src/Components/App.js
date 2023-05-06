@@ -9,6 +9,7 @@ class App extends Component {
   
     this.state = {
        status: "all",
+       showPopup : ""
     }
   }
   
@@ -20,11 +21,23 @@ class App extends Component {
     );
   }
 
+  AboutProduct = (val) => {
+    this.setState({
+      showPopup : val
+  })
+  }
+
+  hidePopup = (val) => {
+    this.setState({
+      showPopup : val
+    })
+  }
+
   render() {
     return (
       <div>
         <Header DisplayCategory = {this.DisplayCategory} />
-        <DisplayProducts status = {this.state.status} />
+        <DisplayProducts status = {this.state.status} AboutProduct = {this.AboutProduct} showPopup = {this.state.showPopup} hidePopup = {this.hidePopup} />
       </div>
     )
   }

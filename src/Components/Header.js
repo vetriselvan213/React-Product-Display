@@ -29,6 +29,7 @@ class Header extends Component {
           <a href="/#"
             onClick={() => {
               this.DisplayCategory("all");
+              this.showNavbar()
             }}
           >
             All Products
@@ -36,6 +37,7 @@ class Header extends Component {
           <a href="/#"
             onClick={() => {
               this.DisplayCategory("all,mobiles");
+              this.showNavbar()
             }}
           >
             Mobile
@@ -43,6 +45,7 @@ class Header extends Component {
           <a href="/#"
             onClick={() => {
               this.DisplayCategory("all,tablets");
+              this.showNavbar()
             }}
           >
             Tablet
@@ -50,6 +53,7 @@ class Header extends Component {
           <a href="/#"
             onClick={() => {
               this.DisplayCategory("all,laptops");
+              this.showNavbar()
             }}
           >
             Laptop
@@ -57,6 +61,7 @@ class Header extends Component {
           <a href="/#"
             onClick={() => {
               this.DisplayCategory("all,headphones");
+              this.showNavbar()
             }}
           >
             HeadPhone
