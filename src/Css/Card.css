@@ -40,11 +40,17 @@
     }
 }
 
-@media(max-width:600px){
+@media(max-width:650px){
     .cards{
         width: 40%;
-        margin: 0 3px;
+        margin: 0 10px;
         margin-bottom: 20px;
+    }
+
+    .flex-wrap {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
 

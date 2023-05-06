@@ -22,7 +22,8 @@ class Header extends Component {
 
   render() {
     return (
-    <header className="flexgroup">
+    <header>
+      <div className="flexgroup content">
         <h1>My $hop</h1>
         <nav ref={this.navRef} >
           <a href="/#"
@@ -67,6 +68,7 @@ class Header extends Component {
         <button className="nav-btn" onClick={() => {this.showNavbar()}}>
           <FaBars/>
         </button>
+        </div>
     </header>
     );
   }
